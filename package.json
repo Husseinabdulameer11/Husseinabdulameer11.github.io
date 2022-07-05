@@ -1,0 +1,29 @@
+{
+	"name": "videochat",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"homepage":"http://husseinabdulameer11.github.io/",
+	"scripts": {
+		"start":"react-scripts start",
+		"dev": "nodemon index.js",
+		"build":"react-scripts build",
+		"test":"react-scripts test",
+		"eject":"react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"-": "^0.0.1",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"gh-pages": "^4.0.0",
+		"nodemon": "^2.0.7",
+		"save-dev": "^0.0.1-security",
+		"serve": "^11.3.2",
+		"socket.io": "^4.0.0"
+	}
+}
